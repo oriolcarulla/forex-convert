@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forex-convert"
+version = "0.1.0"
+authors = [{name = "Oriol Carulla", email = "04ocarulla@gmail.com"}]
+description = "forex-convert is a Python library designed to perform currency conversions easily and efficiently. It uses real-time data to provide up-to-date exchange rates, allowing developers to easily integrate currency conversion functions into their applications."
+readme = "README.md"
+license = {file = "LICENSE"}
+dependencies = ["requests"]
+
+[project.urls]
+Homepage = "https://github.com/oriolcarulla/forex-convert"
+Repository = "https://github.com/oriolcarulla/forex-convert"
