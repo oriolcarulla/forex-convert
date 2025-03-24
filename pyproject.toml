@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "forex-convert"
-version = "0.0.3"
+version = "0.0.4"
 authors = [
   { name="Oriol Carulla", email="04ocarulla@gmail.com" },
 ]
@@ -20,7 +20,7 @@ license-files = ["LICEN[CS]E*"]
 
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/forex_convert"]
+packages = ["forex_convert"]
 
 
 [project.urls]
