@@ -1,7 +1,7 @@
 import requests
 
 class CurrencyRates:
-    BASE_URL = "http://localhost:8080/rate"
+    BASE_URL = "http://oriolserver.ddns.net:8080/rate"
 
     def __init__(self):
         pass
